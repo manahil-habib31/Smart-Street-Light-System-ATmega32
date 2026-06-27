@@ -1,0 +1,105 @@
+<circuit version="1.1.0-SR2" rev="260312" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="mega32-1" mainComp="false" ShowProp="Frequency" Show_id="true" Show_Val="true" Pos="-560,-216" rotation="0" hflip="1" vflip="1" label="mega32-1" idLabPos="0,-20" labelrot="0" valLabPos="10.525,-11.4511" valLabRot="0" Frequency="16 MHz" Program="../Documents/Atmel Studio/7.0/test2/test2/Debug/test2.hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Rail" CircId="Rail-11" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-584,-136" rotation="0" hflip="1" vflip="1" label="Rail-11" idLabPos="-5,-10" labelrot="-90" valLabPos="-14.1771,10.7953" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Ground" CircId="Ground-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-488,-136" rotation="-90" hflip="1" vflip="1" label="Ground-13" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-14" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-488,-128" rotation="-180" hflip="1" vflip="1" label="Rail-14" idLabPos="-5,-10" labelrot="-90" valLabPos="-19.2618,6" valLabRot="-180" Voltage="5 V" />
+
+<item itemtype="Ground" CircId="Ground-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-580,-128" rotation="90" hflip="1" vflip="1" label="Ground-15" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Led" CircId="Led-17" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-48" rotation="0" hflip="1" vflip="1" label="Led-17" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" Grounded="false" Threshold="1.8 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-18" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-604,-64" rotation="0" hflip="1" vflip="1" label="Resistor-18" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="330 Ω" />
+
+<item itemtype="Ground" CircId="Ground-21" mainComp="false" Show_id="false" Show_Val="false" Pos="-584,-32" rotation="0" hflip="1" vflip="1" label="Ground-21" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-23" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-452,-224" rotation="0" hflip="1" vflip="1" label="Rail-23" idLabPos="-5,-10" labelrot="-90" valLabPos="-17.852,5.05066" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="LDR" CircId="LDR-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-220" rotation="0" hflip="1" vflip="1" label="LDR-22" idLabPos="-16,-24" labelrot="0" valLabPos="-3.83506,0.28443" valLabRot="0" Lux="1e-12 Lux" Min_Lux="1e-12 Lux" Max_Lux="1000 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" Slider="false" Scale="1" />
+
+<item itemtype="Push" CircId="Push-25" mainComp="false" Show_id="false" Show_Val="false" Pos="-660,-132" rotation="0" hflip="1" vflip="1" label="Push-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Rail" CircId="Rail-26" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-692,-168" rotation="90" hflip="1" vflip="1" label="Rail-26" idLabPos="-5,-10" labelrot="-90" valLabPos="-15.7201,8.48008" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-29" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-416,-172" rotation="0" hflip="1" vflip="1" label="Resistor-29" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-432,-124" rotation="0" hflip="1" vflip="1" label="Ground-31" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-32" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-688,-104" rotation="0" hflip="1" vflip="1" label="Resistor-32" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-740,-88" rotation="0" hflip="1" vflip="1" label="Ground-34" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-36" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-464,-148" rotation="-180" hflip="1" vflip="1" label="Rail-36" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-180" Voltage="5 V" />
+
+<item itemtype="Rail" CircId="Rail-37" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-624,-212" rotation="90" hflip="1" vflip="1" label="Rail-37" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-38" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-612,-176" rotation="0" hflip="1" vflip="1" label="Resistor-38" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Hd44780" CircId="Hd44780-52" mainComp="false" Show_id="true" Show_Val="false" Pos="-628,-284" rotation="0" hflip="1" vflip="1" label="Hd44780-52" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" />
+
+<item itemtype="Ground" CircId="Ground-53" mainComp="false" Show_id="false" Show_Val="false" Pos="-636,-248" rotation="0" hflip="1" vflip="1" label="Ground-53" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="AudioOut" CircId="AudioOut-55" mainComp="false" Show_id="false" Show_Val="false" Pos="-464,-20" rotation="0" hflip="1" vflip="1" label="AudioOut-55" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="8 Ω" Frequency="1 kHz" />
+
+<item itemtype="Ground" CircId="Ground-56" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,0" rotation="0" hflip="1" vflip="1" label="Ground-56" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-48" mainComp="false" Pos="-644,-104" />
+
+<item itemtype="Node" CircId="Node-51" mainComp="false" Pos="-400,-188" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="mega32-1-PORTB1" endpinid="mega32-1-PORTB1" pointList="-568,-200,-564,-200" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="Rail-26-outnod" endpinid="Push-25-pinP0" pointList="-692,-152,-692,-132,-676,-132" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Resistor-29-lPin" endpinid="Ground-31-Gnd" pointList="-432,-172,-432,-140" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="Ground-34-Gnd" endpinid="Resistor-32-lPin" pointList="-740,-104,-704,-104" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="Rail-36-outnod" endpinid="mega32-1-PORTV1" pointList="-480,-148,-504,-148,-504,-144" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Resistor-38-lPin" endpinid="Rail-37-outnod" pointList="-628,-176,-628,-196,-624,-196" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-38-rPin" endpinid="mega32-1-RST" pointList="-596,-176,-596,-144,-568,-144" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="Resistor-18-lPin" endpinid="Led-17-lPin" pointList="-620,-64,-684,-64,-684,-48" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Resistor-18-rPin" endpinid="mega32-1-PORTD5" pointList="-588,-64,-568,-64" />
+
+<item itemtype="Connector" uid="Connector-95" startpinid="Rail-23-outnod" endpinid="LDR-22-lPin" pointList="-436,-224,-436,-220" />
+
+<item itemtype="Connector" uid="Connector-107" startpinid="Node-48-1" endpinid="mega32-1-PORTD2" pointList="-644,-104,-604,-104,-604,-88,-568,-88" />
+
+<item itemtype="Connector" uid="Connector-108" startpinid="Push-25-switch0pinN" endpinid="Node-48-0" pointList="-644,-132,-644,-104" />
+
+<item itemtype="Connector" uid="Connector-109" startpinid="Node-48-2" endpinid="Resistor-32-rPin" pointList="-644,-104,-672,-104" />
+
+<item itemtype="Connector" uid="Connector-119" startpinid="mega32-1-PORTA0" endpinid="Node-51-1" pointList="-504,-208,-460,-208,-460,-188,-400,-188" />
+
+<item itemtype="Connector" uid="Connector-120" startpinid="Resistor-29-rPin" endpinid="Node-51-0" pointList="-400,-172,-400,-188" />
+
+<item itemtype="Connector" uid="Connector-121" startpinid="Node-51-2" endpinid="LDR-22-rPin" pointList="-400,-188,-400,-220,-404,-220" />
+
+<item itemtype="Connector" uid="Connector-122" startpinid="Hd44780-52-PinRS" endpinid="mega32-1-PORTC1" pointList="-612,-276,-612,-244,-368,-244,-368,-72,-504,-72" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="Hd44780-52-PinRW" endpinid="Ground-53-Gnd" pointList="-604,-276,-604,-264,-636,-264" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="Hd44780-52-PinEn" endpinid="mega32-1-PORTC2" pointList="-596,-276,-596,-252,-360,-252,-360,-80,-504,-80" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="Hd44780-52-dataPin4" endpinid="mega32-1-PORTC3" pointList="-556,-276,-556,-256,-352,-256,-352,-88,-504,-88" />
+
+<item itemtype="Connector" uid="Connector-126" startpinid="Hd44780-52-dataPin5" endpinid="mega32-1-PORTC4" pointList="-548,-276,-548,-260,-340,-260,-340,-96,-504,-96" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="Hd44780-52-dataPin6" endpinid="mega32-1-PORTC5" pointList="-540,-276,-540,-264,-332,-264,-332,-104,-504,-104" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Hd44780-52-dataPin7" endpinid="mega32-1-PORTC6" pointList="-532,-276,-532,-272,-324,-272,-324,-112,-504,-112" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="Ground-21-Gnd" endpinid="Led-17-rPin" pointList="-584,-48,-584,-44,-604,-44,-604,-48,-652,-48" />
+
+<item itemtype="Connector" uid="Connector-137" startpinid="AudioOut-55-lPin" endpinid="mega32-1-PORTC0" pointList="-480,-28,-480,-64,-504,-64" />
+
+<item itemtype="Connector" uid="Connector-138" startpinid="AudioOut-55-rPin" endpinid="Ground-56-Gnd" pointList="-480,-20,-516,-20,-516,-16" />
+
+</circuit>
